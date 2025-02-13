@@ -7,4 +7,4 @@ ENV MARIDB_PASSWORD=${MARIDB_PASSWORD}
 
 EXPOSE 3306
 
-ENTRYPOINT ["mariadb", "--bind-address=0.0.0.0"]
+COPY my.cnf /etc/mysql/conf.d/
