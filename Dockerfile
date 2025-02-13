@@ -7,4 +7,4 @@ ENV MARIDB_PASSWORD=${MARIDB_PASSWORD}
 
 EXPOSE 3306
 
-ENTRYPOINT ["mysqld", "--bind-address=0.0.0.0"]
+ENTRYPOINT ["mariadb", "--bind-address=0.0.0.0"]
