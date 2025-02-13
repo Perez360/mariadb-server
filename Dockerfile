@@ -1,3 +1,3 @@
 FROM mariadb:latest
 
-COPY my.cnf /etc/mysql/my.cnf
+COPY my.cnf /etc/mysql/conf.d/
